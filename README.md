@@ -4,7 +4,7 @@ STM32F446 MCU Project involving FreeRTOS tasks to update LCD 16x2 display via I2
 The project consists of 3 tasks with different priorities, 1 Single Shot timer and Mutex protection.
 1. Display task - This task updates the LCD display with Number of button presses by the user.
 2. GPIO task - This task check the GPIO status on GPIO Pin A5 (PA5, LED pin on Nucleo) and counts how many times the button has been pressed.
-3. ADC task - This task measures the voltage drop on a potentiometer.
+3. ADC task - This task measures the voltage drop on a potentiometer and triggers the Display update function.
 
 If the user pushes the blue button, the LED will light up. After that the Single Shot timer will be triggered, trough interrupt and callback function.
 After the timer has expired, after 5 sec the LED will shut light off on it's own and increment an internal counter, which counts how many times the user has pressed the button. Durring this time the GPIO task will constantly monitor the GPIO state (Either 1 or 0) and send this information to the Display Task.
