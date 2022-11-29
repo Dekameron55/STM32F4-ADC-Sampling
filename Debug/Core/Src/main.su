@@ -1,0 +1,17 @@
+../Core/Src/main.c:88:1:__io_putchar	16	static
+../Core/Src/main.c:99:6:Display_data	32	static
+../Core/Src/main.c:115:6:Display_Task	24	static
+../Core/Src/main.c:127:6:ADC_Task	24	static
+../Core/Src/main.c:148:6:GPIO_Task	24	static
+../Core/Src/main.c:169:6:Timer_Callback	16	static
+../Core/Src/main.c:183:5:main	16	static
+../Core/Src/main.c:243:6:HAL_GPIO_EXTI_Callback	32	static
+../Core/Src/main.c:261:6:SystemClock_Config	88	static
+../Core/Src/main.c:309:13:MX_ADC1_Init	24	static
+../Core/Src/main.c:361:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:395:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:428:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:461:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:504:6:StartDefaultTask	16	static
+../Core/Src/main.c:523:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:540:6:Error_Handler	4	static,ignoring_inline_asm
